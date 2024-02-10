@@ -1,0 +1,60 @@
+.task-creator{
+  display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    border: 3px solid #13d0da ;
+}
+.task-creator-btn{
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: #13d0da;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.task-show{
+   
+  border: 1px solid green;
+  border-radius: 30px;
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.task-colunm{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.task-list{
+  display: flex;
+  flex-direction: row;
+}
+.task-btn{
+  margin: 1px;
+  border-radius: 10px;
+  width: 70px;
+  height: 20px;
+  background-color: #53ce3a;
+  color: rgb(249, 246, 246);
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+.task-btn-delete{
+  margin: 1px;
+  border-radius: 10px;
+  width: 70px;
+  height: 20px;
+  background-color: #ff0000;
+  color: rgb(249, 246, 246);
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+}
